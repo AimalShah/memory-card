@@ -12,14 +12,14 @@ const StartScreen = ({dispatch}) => {
 
     return (
         <>
-        <div className="h-screen flex flex-col justify-center">
+        <div className="container h-screen flex flex-col justify-center">
         <motion.div
         whileHover={{ scale : 1.02}}
         initial={{ opacity: 0, scale : 0.02}}
         animate={{ opacity: 1, x: 0 , scale : 1 }}
         exit={{ opacity: 0, x: 100 }}
         transition={{ duration: 0.5 }}
-        className="w-[500px] mx-auto border-4 p-4 bg-[#CBA069] text-[#2C1D17] border-[#2C1D17]" 
+        className="w-[90%] max-w-[500px] mx-auto border-4 p-4 bg-[#CBA069] text-[#2C1D17] border-[#2C1D17]" 
         >
             <span>
             Cipher Pol's after the location of One Piece, thinking I'm the key. Little do they know, I've got the Straw Hat secrets. With Gum-Gum powers, let the memory showdown begin! 
